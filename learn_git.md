@@ -8,13 +8,17 @@ $ cd gitfile
 $ git init
 ~~~
 
-`gitfile`目录下创建文件file01.txt
+## 文件操作
+
+gitfile`目录下创建文件file01.txt
 
 ~~~shell
 $ git add file01.txt
 $ git status
 $ git commit -m "1.创建文件"
 ~~~
+
+## 分支管理
 
 创建分支dev 并切换到dev分支
 
