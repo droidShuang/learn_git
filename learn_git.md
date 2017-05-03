@@ -8,7 +8,7 @@ $ cd gitfile
 $ git init
 ~~~
 
-\gitfile**目录下创建文件file01.txt
+`gitfile`目录下创建文件file01.txt
 
 ~~~
 $ git add file01.txt
