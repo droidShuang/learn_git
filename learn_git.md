@@ -20,9 +20,6 @@ $ git commit -m "1.创建文件"
 
 ## 分支管理
 
-<<<<<<< HEAD
-创建分支dev 并切换到dev分支
-=======
 查看所有分支
 
 ~~~shell
@@ -30,7 +27,6 @@ $git branch
 ~~~
 
 创建分支
->>>>>>> dev
 
 ~~~shell
 $git branch dev
@@ -60,5 +56,23 @@ $git checkout -b dev
 $git merge dev
 ~~~
 
-删除分支
+合并分支后需要
+
+~~~shell
+$git add xxxx
+$git commit -m "xxxx"
+$git push origin master
+~~~
+
+删除本地分支
+
+~~~shell
+$git branch -d xxx
+~~~
+
+删除远程分支
+
+~~~shell
+$git push origin :xxxx
+~~~
 
